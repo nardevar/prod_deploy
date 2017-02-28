@@ -23,7 +23,7 @@
     </dependency>
   </dependencies>
   
-  <profiles>
+  <build>
   <plugin>
 		<groupId>org.mule.tools.maven</groupId>
 		<artifactId>mule-maven-plugin</artifactId>
@@ -47,5 +47,5 @@
 				</execution>
 		</executions>
   </plugin>
-  </profiles>
+  </build>
 </project>
